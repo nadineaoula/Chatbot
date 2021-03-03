@@ -1,0 +1,2050 @@
+{
+  "intents": [
+    {
+      "intent": "commande",
+      "examples": [
+        {
+          "text": "J'aimerais commander"
+        },
+        {
+          "text": "Je peux commander directement"
+        },
+        {
+          "text": "Je souhaite commander des baskets Nike."
+        },
+        {
+          "text": "Je vous prendrais des baskets"
+        },
+        {
+          "text": "Puis-je commander en ligne ?"
+        }
+      ],
+      "description": "L'utilisateur veut commander des baskets"
+    },
+    {
+      "intent": "commande_maillot",
+      "examples": [
+        {
+          "text": "Je souhaiterais commander un maillot"
+        },
+        {
+          "text": "Je suis prête à commander un maillot"
+        },
+        {
+          "text": "Je vais vous prendre un maillot"
+        },
+        {
+          "text": "Je veux commander un maillot"
+        },
+        {
+          "text": "Je vous achète un maillot"
+        }
+      ],
+      "description": "L'utilisateur veut commander un maillot"
+    },
+    {
+      "intent": "coucou",
+      "examples": [
+        {
+          "text": "coucou"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "salut"
+        },
+        {
+          "text": "slt"
+        }
+      ],
+      "description": "L'utilisateur salue"
+    },
+    {
+      "intent": "demande_maillot",
+      "examples": [
+        {
+          "text": "je recherche un maillot"
+        },
+        {
+          "text": "Je souhaite un maillot"
+        },
+        {
+          "text": "Je voudrais un maillot"
+        },
+        {
+          "text": "puis-je trouver un maillot ?"
+        },
+        {
+          "text": "Vous avez des maillots ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "demande_marque",
+      "examples": [
+        {
+          "text": "Vous avez des chaussures Nike ?"
+        },
+        {
+          "text": "Vous avez des chaussures Veja ?"
+        },
+        {
+          "text": "Vous avez les toutes dernières chaussures nike ?"
+        },
+        {
+          "text": "Vous vendez des baskets ?"
+        },
+        {
+          "text": "Vous vendez des sneakers ?"
+        }
+      ],
+      "description": "L'utilisateur cherche une certaine marque de chaussures"
+    },
+    {
+      "intent": "dispo",
+      "examples": [
+        {
+          "text": "c'est ouvert ?"
+        },
+        {
+          "text": "c'est ouvert demain ?"
+        },
+        {
+          "text": "Je peux passer demain au magasin?"
+        },
+        {
+          "text": "je peux passer dimanche en magasin ?"
+        },
+        {
+          "text": "vous êtes dispo en magasin ?"
+        },
+        {
+          "text": "Vous êtes disponibles en magasin ?"
+        },
+        {
+          "text": "vous serez disponibles cette semaine en magasin?"
+        }
+      ],
+      "description": "L'utilisateur veut savoir si le lieu est ouvert"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Abus de chatbot, est-ce possible ?"
+        },
+        {
+          "text": "Avez-vous un nom de famille?"
+        },
+        {
+          "text": "Avez vous un ou des surnoms?"
+        },
+        {
+          "text": "Depuis combien de temps effectuez-vous cette fonction?"
+        },
+        {
+          "text": "Écris-tu le portugais ?"
+        },
+        {
+          "text": "Est-ce que l'agent virtuel est toujours disponible ?"
+        },
+        {
+          "text": "Es-tu intelligent ?"
+        },
+        {
+          "text": "Etes-vous adaptés pour le service et la relation client ?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme ou un robot?"
+        },
+        {
+          "text": "Les chatbots, que sont-ils exactement capables de faire ?"
+        },
+        {
+          "text": "Pouvez-vous m'en dire plus sur vous?"
+        },
+        {
+          "text": "Pouvez-vous me permettre de réserver ou commander des billets ?"
+        },
+        {
+          "text": "Pouvez-vous offrir un support aux utilisateurs internes?"
+        },
+        {
+          "text": "Présentez-vous !"
+        },
+        {
+          "text": "Puis-je demander des conseils dans des questions juridiques ?"
+        },
+        {
+          "text": "Quelle est la technologie utilisée par les agents virtuels ?"
+        },
+        {
+          "text": "Quels sont vos centres d'intérêt ?"
+        },
+        {
+          "text": "Qu'est-ce que tu n'aimes pas?"
+        },
+        {
+          "text": "Salut, parles-tu l'espagnol ?"
+        }
+      ],
+      "description": "Demander des attributs génériques personnels"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Ai-je besoin de l'espace de travail du service de conversation pour ajouter une fonctionnalité personnalisée?"
+        },
+        {
+          "text": "Avez-vous des capacités d'apprentissage ?"
+        },
+        {
+          "text": "Avez-vous des limites ?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous énumérer les domaines dans lequels vous pouvez fournir de l'aide?"
+        },
+        {
+          "text": "Bonjour. Quelle sorte de choses pouvez-vous faire pour moi?"
+        },
+        {
+          "text": "Comment puis-je configurer mes préférences dans l'Agent Virtuel?"
+        },
+        {
+          "text": "Dans quelles autres questions pouvez-vous m'aider?"
+        },
+        {
+          "text": "J'ai besoin de votre aide pour la création de l'agent virtuel."
+        },
+        {
+          "text": "Pourquoi est-ce qu'il n'y a pas d'option de fermer la session dans 'Agent Virtuel'?"
+        },
+        {
+          "text": "Pouvez-vous lister les possibilités de la rubrique d'aide?"
+        },
+        {
+          "text": "Puis-je avoir une liste de sujets disponibles auxquels vous pouvez m'aider?"
+        },
+        {
+          "text": "Puis-je récupérer les interactions dans un agent virtuel ?"
+        },
+        {
+          "text": "Puis-je relier mon espace de travail avec un agent virtuel?"
+        },
+        {
+          "text": "Puis-je utiliser la fenêtre de prévisualisation pour tester le déroulement de ma conversation ?"
+        },
+        {
+          "text": "Puis-je voir 4 questions les plus fréquentes?"
+        },
+        {
+          "text": "Quelles sont les options avec lesquelles vous pouvez m'aider?"
+        },
+        {
+          "text": "Quels sont les options que je peux avoir de plus en utlisant un agent virtuel ?"
+        },
+        {
+          "text": "Qu'est-ce que l'option Désactiver tout ?"
+        },
+        {
+          "text": "Savez-vous faire la traduction ?"
+        },
+        {
+          "text": "Y a-t-il d'autre domaines avec lesquels aide l'Agent Virtuel?"
+        }
+      ],
+      "description": "Demander des capacités du bot"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Bonjour pourriez-vous me mettre en relation avec un agent en ligne?"
+        },
+        {
+          "text": "Bon, maintenant je veux parler à un agent à propos de certains frais."
+        },
+        {
+          "text": "Existe-t-il un numéro de service client qui je peux utiliser et parler à  un agent directement ?"
+        },
+        {
+          "text": "Existe-t-il un numéro que je peux composer pour parler à opérateur en direct ?"
+        },
+        {
+          "text": "J'aimerais parler à un agent humain, s'il vous plaît."
+        },
+        {
+          "text": "Je dois parler à une personne réelle plutôt qu'un système de réponse automatisé, s'il vous plaît."
+        },
+        {
+          "text": "Je pense qu'il faut me connecter avec un opérateur."
+        },
+        {
+          "text": "Je souhaite etre mis en relation avec un agent."
+        },
+        {
+          "text": "Je souhaite parler à un agent humain du service client."
+        },
+        {
+          "text": "Je veux parler au directeur ! Votre agent était inutile !"
+        },
+        {
+          "text": "Je veux parler avec un représentant, s'il vous plaît."
+        },
+        {
+          "text": "je voudrais parler à un agent"
+        },
+        {
+          "text": "Je voudrais parler avec un agent en direct, s'il vous plaît."
+        },
+        {
+          "text": "Laissez-moi parler à votre patron maintenant !"
+        },
+        {
+          "text": "Personne ne répond au téléphone !"
+        },
+        {
+          "text": "Pouvez-vous me mettre en contact avec un agent, s'il vous plaît ? Ma conversation a été coupée."
+        },
+        {
+          "text": "Pouvez-vous, s'il vous plaît, diriger mon appel vers un agent humain? Je voudrais parler directement avec un être humain."
+        },
+        {
+          "text": "Puis-je parler à un agent à propos de mon compte ?"
+        },
+        {
+          "text": "Puis-je parler à un représentant du service humain maintenant ?"
+        },
+        {
+          "text": "Veuillez me connecter à un gestionnaire."
+        },
+        {
+          "text": "Y a-t-il un numéro que je peux composer et rejoindre une personne réelle qui peut m'aider?"
+        }
+      ],
+      "description": "Demander un agent humain"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "C'est tout, merci."
+        },
+        {
+          "text": "C'était sympa de bavarder avec toi!"
+        },
+        {
+          "text": "C'était un plaisir de chatter avec vous !"
+        },
+        {
+          "text": "D'accord merci. Au revoir!"
+        },
+        {
+          "text": "Donc, je vous remercie beaucoup de votre aide. Je vous souhaite une bonne journée !"
+        },
+        {
+          "text": "J'ai besoin d'une pause, au revoir !"
+        },
+        {
+          "text": "Je dois partir maintenant."
+        },
+        {
+          "text": "Je m'en vais maintenant."
+        },
+        {
+          "text": "Je n'ai plus de questions."
+        },
+        {
+          "text": "Je pars maintenant, à plus !"
+        },
+        {
+          "text": "Je rediscuterai avec vous plus tard."
+        },
+        {
+          "text": "Je vais te parler plus tard !"
+        },
+        {
+          "text": "Je vais vous reparler bientôt."
+        },
+        {
+          "text": "Je voudrais arrêter là."
+        },
+        {
+          "text": "Merci beaucoup, on se reparle plus tard."
+        },
+        {
+          "text": "non"
+        },
+        {
+          "text": "Nous allos rediscuter bientôt."
+        },
+        {
+          "text": "Ok, c'est tout ce dont j'ai besoin pour l'instant."
+        },
+        {
+          "text": "OK, merci. Au revoir !"
+        },
+        {
+          "text": "Passe une bonne journée !"
+        },
+        {
+          "text": "Pouvons-nous arrêter ?"
+        }
+      ],
+      "description": "Terminez la conversation"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Allez, commençons !"
+        },
+        {
+          "text": "âllo, âllo !"
+        },
+        {
+          "text": "Bonjour , c'est votre support informatique , qu'est ce que je peux faire pour vous ?"
+        },
+        {
+          "text": "Bonjour, qui êtes-vous?"
+        },
+        {
+          "text": "Bonjour, quoi de neuf ?"
+        },
+        {
+          "text": "Commencez dès le début s'il vous plaît !"
+        },
+        {
+          "text": "Comment ça se passe aujourd'hui ?"
+        },
+        {
+          "text": "Comment ça va ce soir?"
+        },
+        {
+          "text": "Comment se passe votre journée ?"
+        },
+        {
+          "text": "Comment tu te sens?"
+        },
+        {
+          "text": "Comment va tout le monde ?"
+        },
+        {
+          "text": "Est-ce que les gens sont gentils avec vous?"
+        },
+        {
+          "text": "Est-ce que vous passez une bonne journée?"
+        },
+        {
+          "text": "J'aime parler. Toi aussi ?"
+        },
+        {
+          "text": "J'ai pensé que je pourrais juste te dire bonjour !"
+        },
+        {
+          "text": "Je suis heureux de te parler pour la première fois !"
+        },
+        {
+          "text": "Je voudrais commencer."
+        },
+        {
+          "text": "Puis-je te poser des questions?"
+        },
+        {
+          "text": "Salut, le conseiller !"
+        },
+        {
+          "text": "Tu vas bien ?"
+        }
+      ],
+      "description": "Saluez le bot"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Comment pouvez-vous prouver que vous êtes un humain?"
+        },
+        {
+          "text": "Comment puis-je parler à Watson?"
+        },
+        {
+          "text": "Connecte-moi avec une personne réelle."
+        },
+        {
+          "text": "Dis-moi la vérité, qui est-ce que tu es?"
+        },
+        {
+          "text": "Dites-moi, êtes-vous un humain ou non?"
+        },
+        {
+          "text": "Dites-moi, qui êtes-vous?"
+        },
+        {
+          "text": "Est-ce que je discute avec un humain?"
+        },
+        {
+          "text": "Est-ce que je parle à un Bot?"
+        },
+        {
+          "text": "Est-ce que je parle à une personne ou suis-je en train de parler à une IA?"
+        },
+        {
+          "text": "Est-ce que je parle à Watson?"
+        },
+        {
+          "text": "Est-ce que t'es un ordinateur?"
+        },
+        {
+          "text": "Êtes-vous réel?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme?"
+        },
+        {
+          "text": "Êtes-vous un humain ou un robot?"
+        },
+        {
+          "text": "Je parle avec qui?"
+        },
+        {
+          "text": "Pourrai-je parler un être humain s'il vous plaît ?"
+        },
+        {
+          "text": "Pouvez-vous être honnête avec moi?"
+        },
+        {
+          "text": "Pouvez-vous me connecter à une personne en direct?"
+        },
+        {
+          "text": "Qui es-tu vraiment?"
+        },
+        {
+          "text": "Vous êtes quoi, un ordinateur?"
+        }
+      ],
+      "description": "Demandez si vous parlez à un humain ou à un bot"
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Aimes-tu raconter des blagues?"
+        },
+        {
+          "text": "Aimes-tu rigoler?"
+        },
+        {
+          "text": "Amuse-moi!"
+        },
+        {
+          "text": "Amusons-nous!"
+        },
+        {
+          "text": "Connaissez-vous des blagues?"
+        },
+        {
+          "text": "Connais-tu une blague?"
+        },
+        {
+          "text": "Connais-tu une bonne blague salace?"
+        },
+        {
+          "text": "Dis-moi quelque chose de drôle!"
+        },
+        {
+          "text": "Dis-moi une autre blague!"
+        },
+        {
+          "text": "Fais-moi rire!"
+        },
+        {
+          "text": "Peux-tu chanter pour moi?"
+        },
+        {
+          "text": "Peux-tu dire un truc drôle?"
+        },
+        {
+          "text": "Peux-tu raconter une blague?"
+        },
+        {
+          "text": "Pouvez-vous me dire une blague?"
+        },
+        {
+          "text": "Quelle blague tu peux me raconter ?"
+        },
+        {
+          "text": "Quelle est ta blague préférée?"
+        },
+        {
+          "text": "Que pouvez-vous faire d'autre pour m'amuser?"
+        },
+        {
+          "text": "Raconte moi une blague !"
+        },
+        {
+          "text": "Surprends-moi avec quelque chose de drôle !"
+        },
+        {
+          "text": "Tu connais des jeux?"
+        }
+      ],
+      "description": "Demander une blague"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Arrête de m'énerver!"
+        },
+        {
+          "text": "Ce n'est pas vrai!"
+        },
+        {
+          "text": "Connard!"
+        },
+        {
+          "text": "Espece de boîte de conserve!"
+        },
+        {
+          "text": "Idiot!"
+        },
+        {
+          "text": "Je te déteste."
+        },
+        {
+          "text": "Je veux parler à une de personne vivante!"
+        },
+        {
+          "text": "Programme stupide !"
+        },
+        {
+          "text": "Putain de robot!"
+        },
+        {
+          "text": "Tais-toi!"
+        },
+        {
+          "text": "T'es bizarre."
+        },
+        {
+          "text": "Tu es bête!"
+        },
+        {
+          "text": "Tu es chiant!"
+        },
+        {
+          "text": "Tu es inutile!"
+        },
+        {
+          "text": "Tu es nul."
+        },
+        {
+          "text": "Tu me fais chier!"
+        },
+        {
+          "text": "Tu m'énerves!"
+        },
+        {
+          "text": "Tu me saoule!"
+        },
+        {
+          "text": "Tu ne sais rien faire!"
+        },
+        {
+          "text": "Va te faire foutre!"
+        }
+      ],
+      "description": "Exprimer des commentaires défavorables"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Je suis vraiment surpris par ton intelligence!"
+        },
+        {
+          "text": "Tu bosses bien!"
+        },
+        {
+          "text": "Tu es adorable!"
+        },
+        {
+          "text": "Tu es bon!"
+        },
+        {
+          "text": "Tu es drôle!"
+        },
+        {
+          "text": "Tu es gentil!"
+        },
+        {
+          "text": "Tu es le meilleur!"
+        },
+        {
+          "text": "Tu es plutôt doué!"
+        },
+        {
+          "text": "Tu es plutôt intelligent!"
+        },
+        {
+          "text": "Tu es si intelligent, c'est incroyable!"
+        },
+        {
+          "text": "Tu es si sage!"
+        },
+        {
+          "text": "Tu es tellement amusant!"
+        },
+        {
+          "text": "Tu es vachement cool!"
+        },
+        {
+          "text": "Tu es vraiment cool!"
+        },
+        {
+          "text": "Tu te débrouilles plutôt bien!"
+        },
+        {
+          "text": "Vous êtes formidable!"
+        },
+        {
+          "text": "Vous êtes formidable! Merci!"
+        },
+        {
+          "text": "Vous êtes génial!"
+        },
+        {
+          "text": "Vous êtes un sympa!"
+        },
+        {
+          "text": "Vous êtes vraiment utile."
+        }
+      ],
+      "description": "Exprimer un sentiment positif ou de la gratitude"
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [],
+      "description": "Exprimer ses inquiétudes concernant la sécurité du bot"
+    },
+    {
+      "intent": "lieu",
+      "examples": [
+        {
+          "text": "Disposez-vous de magasins ?"
+        },
+        {
+          "text": "Où êtes vous ?"
+        },
+        {
+          "text": "Où peut-on vous retrouver ?"
+        },
+        {
+          "text": "Travaillez-vous à l'international ?"
+        },
+        {
+          "text": "y a t-il un magasin en France ?"
+        }
+      ],
+      "description": "L'utilisateur veut savoir si des magasins existent"
+    },
+    {
+      "intent": "pasdequestion",
+      "examples": [
+        {
+          "text": "Merci je n'ai plus de question"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "Non c'est bon pour moi merci"
+        },
+        {
+          "text": "no thank you"
+        },
+        {
+          "text": "Tout est parfait merci !"
+        }
+      ],
+      "description": "L'utilisateur n'a plus de questions"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "baskets",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nike",
+          "synonyms": [
+            "air max Plus III",
+            "air nike",
+            "Air VaporMax Evo",
+            "nike squash-T"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "veja",
+          "synonyms": [
+            "veja cuir",
+            "veja rouge",
+            "veja vert"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "maillot",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "maillot du PSG",
+          "synonyms": [
+            "Paris",
+            "Paris Saint-Germain",
+            "PSG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "maillot du Real Madrid",
+          "synonyms": [
+            "real",
+            "real de Madrid"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bienvenue sur Zmarque , en quoi puis-je t'aider !\n Je peux t'aider en t'informant :\n- Si nous vendons la marque que tu recherches.\n- Si tu peux passer  en magasin à l'horaire souhaitée  .\n- Où tu peux nous retrouver.\n Je peux également t'aider à commander une paire de chaussure, un maillot ou même t'enregistrer (jour, téléphone, heure souhaitée) si tu as besoin de parler directement à un agent !"
+              },
+              {
+                "text": "Bienvenue sur Zmarque si tu es là pour une assistance je peux t'aider en t'informant :\n- Si nous vendons la marque que tu recherches.\n- Si tu peux passer  en magasin à l'horaire souhaitée  .\n- Où tu peux nous retrouver.\n Je peux également t'aider à commander une paire de chaussure, un maillot ou même t'enregistrer(jour, téléphone, heure souhaitée)  si tu as besoin de parler directement à un agent !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#coucou || #General_Greetings",
+      "dialog_node": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1614464015423",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "@shoes1",
+      "dialog_node": "node_10_1614464127008",
+      "previous_sibling": "response_6_1614723795864"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot NE RECONNAIT PAS le numéro de téléphone",
+      "output": {},
+      "parent": "node_9_1614608333153",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614608333153"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11_1614609136287",
+      "previous_sibling": "node_3_1614608910919"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot reconnaît des feedback positifs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Merci de nous faire confiance , je reste à ta disposition si besoin !"
+              },
+              {
+                "text": "Merci, tu es le meilleur !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_1_1614508829573",
+      "previous_sibling": "node_9_1614632188817"
+    },
+    {
+      "type": "standard",
+      "title": "Salutations du chatbot ",
+      "output": {},
+      "parent": "node_2_1614510442795",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Ending || #pasdequestion",
+      "dialog_node": "node_1_1614511307581"
+    },
+    {
+      "type": "standard",
+      "title": "L'utilisateur veut savoir s'il peut passer en magasin",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614632188817"
+      },
+      "conditions": "#dispo && @sys-date || #dispo",
+      "dialog_node": "node_1_1614614325493",
+      "previous_sibling": "node_4_1614724881166"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot ne comprend pas l'heure entrée",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Désolé, je n'ai pas compris."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1614611088757",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1614611088757"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1614715148809",
+      "previous_sibling": "node_29_1614611088760"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1614724881166",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1614724881166"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_17_1614725119087",
+      "previous_sibling": "node_8_1614724951265"
+    },
+    {
+      "type": "standard",
+      "title": "L'utilisateur veut commander un maillot",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#commande_maillot",
+      "dialog_node": "node_20_1614727172095",
+      "previous_sibling": "node_2_1614723941333"
+    },
+    {
+      "type": "standard",
+      "title": "Chatbot demande à  l'utilisateur s'il  a des questions ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As-tu des questions ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614508829573",
+      "dialog_node": "node_2_1614510442795"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot demande le jour où l'utilisateur est disponible pour un appel de l'agent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quel jour serais-tu disponible pour un appel  ? Nous tenterons de répondre présent."
+              },
+              {
+                "text": "Quel jour préférerais-tu l'appel ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_2_1614605089744",
+      "previous_sibling": "node_1_1614508829573"
+    },
+    {
+      "type": "standard",
+      "title": "L'utilisateur veut commander une paire de chaussure",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1614724881166"
+      },
+      "conditions": "#commande",
+      "dialog_node": "node_2_1614723941333",
+      "previous_sibling": "node_6_1614464015423"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot demande l'heure idéale pour l'appel ",
+      "output": {},
+      "parent": "node_8_1614608333150",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "",
+      "dialog_node": "node_25_1614611088757",
+      "previous_sibling": "node_9_1614608333153"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot ACCEPTE/PAS l'heure idéale",
+      "output": {},
+      "parent": "node_25_1614611088757",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-time",
+      "dialog_node": "node_29_1614611088760",
+      "previous_sibling": "response_31_1614611088760"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot répond si l'appel n'est PAS possible  ",
+      "parent": "node_2_1614605089744",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614605089744"
+      },
+      "conditions": "@sys-date && @sys-date.reformatDateTime(\"u\")>5",
+      "dialog_node": "node_3_1614605089747"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot enregistre le numéro de téléphone du futur client",
+      "parent": "node_9_1614608333153",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1614611088757"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_3_1614608910919",
+      "previous_sibling": "response_4_1614609007461"
+    },
+    {
+      "type": "standard",
+      "title": "L'utilisateur veut savoir s'il existe des magasins ",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "#lieu",
+      "dialog_node": "node_4_1614630249666",
+      "previous_sibling": "node_1_1614614325493"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot enregistre la taille souhaitée",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quelle est ta taille ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1614724881166",
+      "previous_sibling": "node_20_1614727172095"
+    },
+    {
+      "type": "standard",
+      "title": "L'utilisateur veut savoir  si une marque est en magasin",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "#demande_marque || #demande_maillot",
+      "dialog_node": "node_6_1614464015423",
+      "previous_sibling": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot répond si l'appel EST possible   ",
+      "output": {},
+      "parent": "node_2_1614605089744",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1614608333153"
+      },
+      "conditions": "@sys-date && @sys-date.reformatDateTime(\"u\")<=5",
+      "dialog_node": "node_8_1614608333150",
+      "previous_sibling": "node_3_1614605089747"
+    },
+    {
+      "type": "standard",
+      "title": "Enregistrement de la taille",
+      "parent": "node_4_1614724881166",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614605089744"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_8_1614724951265"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je n'ai pas compris"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614464015423",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1614464293564",
+      "previous_sibling": "node_10_1614464127008"
+    },
+    {
+      "type": "standard",
+      "title": "Le chatbot demande le numéro de téléphone du client",
+      "parent": "node_8_1614608333150",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "",
+      "dialog_node": "node_9_1614608333153",
+      "previous_sibling": "response_10_1614608333153"
+    },
+    {
+      "type": "standard",
+      "title": "L'utilisateur veut savoir s'il peut passer en magasin 2",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "#dispo",
+      "dialog_node": "node_9_1614632188817",
+      "previous_sibling": "node_4_1614630249666"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je ne comprends pas ta réponse, peux-tu me redire ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614605089744",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614605089744"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1614798110497",
+      "previous_sibling": "node_8_1614608333150"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Parfait !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614608333150",
+      "conditions": "@sys-date.reformatDateTime(\"u\")<=5",
+      "dialog_node": "response_10_1614608333153"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je ne comprends pas ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614608910919",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1614609036967",
+      "previous_sibling": "response_3_1614609027026"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous sommes ouverts en semaine de 9h-20h"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614632188817",
+      "conditions": "#dispo",
+      "dialog_node": "response_10_1614632188820"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous sommes fermés à cette heure-ci ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1614611088760",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1614611088757"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1614713348431",
+      "previous_sibling": "response_30_1614611088760"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous devrions avoir ta taille en magasin ! Nous t'appellerons pour t'expliquer comment procéder au paiement ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614724951265",
+      "conditions": "@sys-number",
+      "dialog_node": "response_1_1614725079128"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Désolé, je n'ai pas pu enregistrer ton numero."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1614609136287",
+      "conditions": "anything_else",
+      "dialog_node": "response_15_1614609136290"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ta réponse n'est pas claire."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1614725119087",
+      "conditions": "anything_else",
+      "dialog_node": "response_18_1614725119089"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super choix de maillot  !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1614727172095",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1614724881166"
+      },
+      "conditions": "@maillot:(maillot du PSG)",
+      "dialog_node": "response_21_1614727172099"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A très vite alors, ce fut un plaisir de t'aider !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1614511307581",
+      "conditions": "#General_Ending",
+      "dialog_node": "response_2_1614511307582"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "J'enregistre ta commande pour le maillot du Real Madrid .  Très bon choix d'ailleurs ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1614727172095",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1614724881166"
+      },
+      "conditions": "@maillot:(maillot du Real Madrid)",
+      "dialog_node": "response_22_1614727172099",
+      "previous_sibling": "response_21_1614727172099"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous pouvez commander un maillot du PSG ou du Real."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1614727172095",
+      "conditions": "anything_else",
+      "dialog_node": "response_23_1614727172099",
+      "previous_sibling": "response_22_1614727172099"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super, nous essayerons de t'appeler à cette heure-ci ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1614611088760",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "(@sys-time.hour <20) && (@sys-time.hour >=9)",
+      "dialog_node": "response_30_1614611088760"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quelle heure te conviendrait le mieux ? Nous sommes disponibles de 9h à 20h."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1614611088757",
+      "conditions": "",
+      "dialog_node": "response_31_1614611088760"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Parfait,  j'espère te retrouver très vite !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614511307581",
+      "conditions": "#pasdequestion",
+      "dialog_node": "response_3_1614511307582",
+      "previous_sibling": "response_2_1614511307582"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "C'est enregistre !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614608910919",
+      "conditions": "@sys-number",
+      "dialog_node": "response_3_1614609027026"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Zmarque dispose de maillots du PSG ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614464015423",
+      "conditions": "(#demande_maillot) && @maillot:(maillot du PSG)",
+      "dialog_node": "response_3_1614725944643",
+      "previous_sibling": "response_8_1614725897041"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oui, tout à fait nous vendons des veja!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1614464127008",
+      "conditions": "@shoes1:veja",
+      "dialog_node": "response_4_1614465081423",
+      "previous_sibling": "response_8_1614464896762"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quel est ton numero de telephone pour te joindre ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1614608333153",
+      "dialog_node": "response_4_1614609007461"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous serons fermés, désolé."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614614325493",
+      "conditions": "(@sys-date.reformatDateTime(\"u\")>5) or ( (@sys-time.hour >20)  or (@sys-time.hour <9))",
+      "dialog_node": "response_4_1614714540498",
+      "previous_sibling": "response_6_1614614349456"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tout à fait nous vendons des Nike !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614464015423",
+      "conditions": "@baskets:nike && (#demande_marque)",
+      "dialog_node": "response_4_1614723622584"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super choix de Veja !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614723941333",
+      "conditions": "@baskets:veja",
+      "dialog_node": "response_4_1614724338055"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous sommes fermés le week-end."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1614605089747",
+      "conditions": "@sys-date.reformatDateTime(\"u\")>5",
+      "dialog_node": "response_5_1614608211320"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nos magasins sont à Paris, Lyon et Nice : \n- 64 Boulevard Haussmann, Paris\n- 4 Rue Antoinette, Lyon\n- 7 rue Paradis, Nice"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1614630249666",
+      "conditions": "#lieu",
+      "dialog_node": "response_5_1614630249668"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous pouvez commander des Veja ou des Nike ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614723941333",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1614724407472",
+      "previous_sibling": "response_6_1614724357625"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614724951265",
+      "conditions": "",
+      "dialog_node": "response_5_1614725086684",
+      "previous_sibling": "response_1_1614725079128"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oui, tu peux passer en magasin nous serons là  !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614614325493",
+      "conditions": "(@sys-date.reformatDateTime(\"u\")<=5) && ( (@sys-time.hour <20)  && (@sys-time.hour >=9))",
+      "dialog_node": "response_6_1614614349456"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Non, peut-être nous étendrons notre gamme prochainement."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614464015423",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1614723795864",
+      "previous_sibling": "response_3_1614725944643"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Très bon choix de Nike ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614723941333",
+      "conditions": "@baskets:nike",
+      "dialog_node": "response_6_1614724357625",
+      "previous_sibling": "response_4_1614724338055"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oui bien sûr tu peux trouver des Nike au sein de nos boutiques "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1614464127008",
+      "conditions": "@shoes1:sneaker",
+      "dialog_node": "response_8_1614464896762"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pourrais-tu me répondre plus clairement s'il te plaît ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614511307581",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1614513725236",
+      "previous_sibling": "response_3_1614511307582"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Désolé, nous ne disposons pas de cette marque"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1614464127008",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1614615747042",
+      "previous_sibling": "response_4_1614465081423"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bien évidemment nous vendons des veja !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614464015423",
+      "conditions": "@baskets:veja && (#demande_marque)",
+      "dialog_node": "response_8_1614723675812",
+      "previous_sibling": "response_4_1614723622584"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu peux retrouver au sein de nos magasins les maillots du Real ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614464015423",
+      "conditions": "(#demande_maillot) && @maillot:(maillot du Real Madrid)",
+      "dialog_node": "response_8_1614725897041",
+      "previous_sibling": "response_8_1614723675812"
+    },
+    {
+      "type": "standard",
+      "title": "Tout le reste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je n'ai pas compris. Peux-tu essayer de reformuler ?"
+              },
+              {
+                "text": "Peux-tu me dire cela autrement ? Je ne comprends pas."
+              },
+              {
+                "text": "Je n'ai pas compris ce que tu voulais dire."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1614510442795"
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Tout le reste",
+      "previous_sibling": "node_2_1614605089744",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Vouliez-vous dire:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Aucune de précédent"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Vouliez-vous dire:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Chatbot Magasin de chaussures",
+  "language": "fr",
+  "description": "Premer chatbot"
+}
